@@ -1,5 +1,5 @@
 FROM oarfish/alpine-fsharp
 
-COPY hello.fsx hello.fsx
+COPY oyster.fsx oyster.fsx
 
 CMD fsharpi oyster.fsx

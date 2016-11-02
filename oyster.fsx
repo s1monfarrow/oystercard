@@ -131,4 +131,4 @@ let trip = Trip [EnterTube Holborn
                  LeaveTube Hammersmith]
 
 
-test "full trip" (trip |> charge card = Card(22.2m))
+test "full trip 22.2" (trip |> charge card = Card(22.2m))
